@@ -6,7 +6,18 @@ const newsData = [
         excerpt: "Dagoberto Valdés y Yoandy Izquierdo, directivos del CEC, fueron interrogados en Pinar del Río tras su viaje a Madrid, en un nuevo episodio de hostigamiento contra la organización.",
         category: "derechos",
         date: "28 de Noviembre, 2025",
-        image: "./assets/Dagoberto-Valdes-catolico-Cuba-opositor-yoandy-izquierdo.jpg"
+        image: "./assets/Dagoberto-Valdes-catolico-Cuba-opositor-yoandy-izquierdo.jpg",
+        content: `<p><strong>Pinar del Río, Cuba</strong> — Integrantes del Centro de Estudios Convivencia (CEC), una de las organizaciones cívicas independientes más reconocidas del occidente cubano, denunciaron este fin de semana nuevos episodios de hostigamiento por parte de la Seguridad del Estado. Los activistas Dagoberto Valdés y Yoandy Izquierdo, directivos del centro, fueron citados oficialmente para interrogatorios en dependencias policiales de Pinar del Río.</p>
+        
+        <p>Según declaraciones ofrecidas por la propia institución, los agentes se enfocaron en cuestionar detalles del reciente viaje de ambos a Madrid, incluyendo su agenda de reuniones, los espacios en los que participaron, y las organizaciones con las que sostuvieron intercambios. También se indagó en asuntos personales como alojamiento, contactos y proyecciones futuras del grupo.</p>
+        
+        <p>El CEC denunció que este tipo de interrogatorios no constituye un hecho aislado, sino parte de un patrón de vigilancia y presión que lleva años dirigido contra la plataforma y sus miembros, quienes se dedican al análisis social, formación cívica y acompañamiento comunitario dentro de la sociedad civil.</p>
+        
+        <p>Organizaciones internacionales de derechos humanos han señalado previamente que las autoridades cubanas recurren a citaciones policiales, interrogatorios intimidatorios, vigilancia y limitaciones a la movilidad para intentar frenar el trabajo legítimo de actores independientes. En múltiples informes, se ha señalado que estas prácticas forman parte de un esquema más amplio dirigido a restringir la libertad de asociación, de pensamiento y de expresión pacífica.</p>
+        
+        <p>Hasta el momento, ninguna institución estatal ha ofrecido declaraciones públicas sobre este nuevo incidente.</p>
+        
+        <p>El Centro de Estudios Convivencia afirmó que continuará con sus proyectos educativos y comunitarios, y reiteró que su labor es totalmente pacífica y orientada al desarrollo social.</p>`
     },
     {
         id: 2,
@@ -14,7 +25,49 @@ const newsData = [
         excerpt: "Un informe denuncia detenciones arbitrarias, violencia sexualizada y amenazas contra familiares como parte de un patrón estatal para silenciar a mujeres activistas en Cuba.",
         category: "abusos",
         date: "27 de Noviembre, 2025",
-        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=Mujeres+Defensoras"
+        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=Mujeres+Defensoras",
+        content: `<p><strong>La Habana, Cuba</strong> — Un reciente informe de Amnistía Internacional revela un patrón sistemático de represión y violencia institucional ejercida por el Estado cubano contra mujeres defensoras de derechos humanos, periodistas independientes y activistas. Las denuncias señalan que estas mujeres enfrentan un trato especialmente severo debido a su género y a su rol dentro de la sociedad civil.</p>
+        
+        <h3>Patrón sistemático de hostigamiento</h3>
+        
+        <p>Según el informe, las autoridades cubanas han recurrido a:</p>
+        <ul>
+            <li>Detenciones arbitrarias</li>
+            <li>Vigilancia e interceptación ilegal</li>
+            <li>Desapariciones forzadas temporales</li>
+            <li>Amenazas contra familiares e hijos</li>
+            <li>Insultos y humillaciones de carácter sexual o misógino</li>
+            <li>Violencia psicológica y física</li>
+            <li>Criminalización injustificada del activismo</li>
+        </ul>
+        
+        <p>Las defensoras reportan que estos abusos forman parte de una estrategia estatal para silenciar voces críticas, inhibir la labor cívica y fragmentar la organización de la sociedad civil.</p>
+        
+        <h3>Testimonios que revelan violencia de género institucional</h3>
+        
+        <p>Varias mujeres entrevistadas describen situaciones degradantes durante detenciones e interrogatorios. Entre las denuncias más graves se encuentran:</p>
+        <ul>
+            <li>Revisiones corporales invasivas y desnudos forzados</li>
+            <li>Comentarios sexualizados y amenazas contra hijos menores</li>
+            <li>Gritos, humillaciones públicas y presiones psicológicas</li>
+            <li>Agresiones físicas durante arrestos</li>
+        </ul>
+        
+        <p>Una activista declaró: <em>"El trato que recibí fue más duro porque soy mujer y madre. Usaron a mis hijos como arma psicológica."</em></p>
+        
+        <p>Estas prácticas, según expertos, constituyen violencia basada en género ejercida desde instituciones del Estado, un fenómeno especialmente alarmante debido a la ausencia de mecanismos independientes de protección.</p>
+        
+        <h3>Un contexto marcado por la impunidad</h3>
+        
+        <p>Organismos de derechos humanos advierten que estos abusos no son incidentes aislados, sino parte de un clima de impunidad donde no existen garantías judiciales reales, las denuncias no son investigadas, las instituciones responden políticamente y no legalmente, y las afectadas quedan desprotegidas frente al aparato de seguridad del Estado.</p>
+        
+        <p>El resultado es una represión sostenida, en la que las mujeres activistas cargan con un doble peso: ser opositoras y ser mujeres.</p>
+        
+        <h3>Llamado internacional</h3>
+        
+        <p>Amnistía Internacional exige al gobierno cubano poner fin inmediato a la violencia institucional basada en género, garantizar la seguridad e integridad de las defensoras, detener la criminalización del activismo pacífico y crear mecanismos de protección efectivos e independientes.</p>
+        
+        <p>La organización también insta a la comunidad internacional a mantener la vigilancia sobre la situación en Cuba y apoyar a quienes ejercen su derecho a defender derechos dentro de la isla.</p>`
     },
     {
         id: 3,
@@ -22,7 +75,62 @@ const newsData = [
         excerpt: "Reportes del CDPC exponen muertes bajo custodia, torturas, celdas insalubres y negligencia médica sistemática en cárceles cubanas, sin respuestas del Estado.",
         category: "represion",
         date: "26 de Noviembre, 2025",
-        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=Prisiones"
+        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=Prisiones",
+        content: `<p><strong>Cuba</strong> — Organizaciones independientes de monitoreo penal han alertado sobre un preocupante deterioro en las condiciones de las prisiones cubanas, señalando un aumento de muertes, torturas, castigos crueles y negligencia médica dentro del sistema penitenciario. Los reportes recientes exponen violaciones graves a los derechos humanos y un clima de impunidad que pone en riesgo la vida de las personas privadas de libertad.</p>
+        
+        <h3>Muertes recientes bajo custodia estatal</h3>
+        
+        <p>El Centro de Documentación de Prisiones Cubanas (CDPC) informó que, solo en los últimos meses, se han registrado varias muertes dentro de centros penitenciarios del país. En muchos de los casos, los fallecimientos están asociados a:</p>
+        <ul>
+            <li>Falta de atención médica oportuna</li>
+            <li>Negligencia por parte del personal penitenciario</li>
+            <li>Condiciones insalubres</li>
+            <li>Enfermedades no tratadas</li>
+            <li>Situaciones de violencia interna no controlada</li>
+        </ul>
+        
+        <p>Activistas señalan que estas muertes ocurren en un contexto donde los reclusos denuncian repetidamente la ausencia de asistencia médica y la demora en traslados hacia hospitales, incluso en casos de emergencia.</p>
+        
+        <h3>Torturas y tratos crueles</h3>
+        
+        <p>Diversos testimonios recogidos por ONG cubanas e internacionales apuntan a la práctica reiterada de métodos de tortura y tratos inhumanos dentro de las cárceles. Entre los abusos denunciados se encuentran:</p>
+        <ul>
+            <li>Golpizas por parte de guardias</li>
+            <li>Aislamientos prolongados en celdas de castigo</li>
+            <li>Exposición a altas temperaturas sin agua</li>
+            <li>Privación de alimentos como forma de sanción</li>
+            <li>Amenazas y humillaciones constantes</li>
+            <li>Uso de esposas durante largos períodos</li>
+        </ul>
+        
+        <p>Los presos políticos y manifestantes del 11J figuran entre los grupos más castigados, sufriendo medidas disciplinarias desproporcionadas destinadas a quebrar su voluntad.</p>
+        
+        <h3>Negligencia estructural: celdas insalubres y hacinamiento</h3>
+        
+        <p>Los informes describen condiciones deplorables: instalaciones deterioradas, filtraciones, plagas, falta de agua potable, mala alimentación y hacinamiento extremo en varias provincias del país.</p>
+        
+        <p>Entre los problemas más frecuentes se destacan:</p>
+        <ul>
+            <li>Celdas sin ventilación y con humedad crónica</li>
+            <li>Comidas en mal estado o insuficientes</li>
+            <li>Escasez absoluta de productos de higiene</li>
+            <li>Camas oxidadas o inexistentes</li>
+            <li>Mosquitos, ratas y cucarachas dentro de los dormitorios</li>
+        </ul>
+        
+        <p>La combinación de insalubridad y mala atención médica incrementa el riesgo de brotes de enfermedades, afectando especialmente a presos enfermos, adultos mayores y personas con condiciones crónicas.</p>
+        
+        <h3>Impunidad y falta de transparencia</h3>
+        
+        <p>Organizaciones de derechos humanos advierten que el sistema penitenciario cubano opera con opacidad total, lo que dificulta la verificación independiente de los abusos. Sin embargo, la consistencia de los testimonios y los reportes reunidos apunta a un patrón extendido y sistemático de violaciones.</p>
+        
+        <p>El Estado cubano no ha ofrecido información pública sobre estas denuncias y se mantiene sin investigar los hechos, lo que refuerza la percepción de impunidad.</p>
+        
+        <h3>Exigen investigación internacional y protección a los reclusos</h3>
+        
+        <p>Diversas organizaciones han solicitado acceso de organismos internacionales a las prisiones cubanas, garantías de atención médica para los presos, eliminación del uso de celdas de castigo como método de quebrantamiento físico y psicológico, respeto a las normas mínimas para el tratamiento de reclusos establecidas por la ONU, e investigación inmediata de las muertes y abusos recientes.</p>
+        
+        <p>El informe concluye que la situación actual representa una crisis humanitaria silenciosa, donde la vida y la dignidad de miles de personas están en riesgo.</p>`
     },
     {
         id: 4,
@@ -30,7 +138,58 @@ const newsData = [
         excerpt: "Human Rights Watch documenta detenciones masivas, allanamientos y persecución a voces independientes, sin investigaciones estatales y con total impunidad.",
         category: "libertad",
         date: "25 de Noviembre, 2025",
-        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=HRW+2025"
+        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=HRW+2025",
+        content: `<p><strong>Cuba</strong> — El Informe Mundial 2025 de Human Rights Watch (HRW) revela que el gobierno cubano continúa aplicando políticas de represión sistemática contra ciudadanos que ejercen derechos fundamentales como la libertad de expresión, asociación y protesta pacífica. Según HRW, decenas de manifestaciones ocurridas en los últimos meses han terminado con detenciones arbitrarias, interrogatorios intimidatorios y uso excesivo de la fuerza, afectando especialmente a mujeres y jóvenes.</p>
+        
+        <h3>Represión de protestas y detenciones masivas</h3>
+        
+        <p>El informe documenta que cientos de personas —incluyendo activistas, periodistas independientes y simples ciudadanos— han sido detenidas por:</p>
+        <ul>
+            <li>Participar en protestas pacíficas</li>
+            <li>Manifestar opiniones críticas hacia el gobierno</li>
+            <li>Publicar denuncias en redes sociales</li>
+            <li>Organizar reuniones comunitarias sin permiso estatal</li>
+        </ul>
+        
+        <p>HRW señala que en varios casos la represión incluyó violencia física, arrestos sorpresivos en plena calle, allanamientos sin orden judicial y vigilancia constante como método de intimidación.</p>
+        
+        <h3>Persecución a voces independientes</h3>
+        
+        <p>La organización internacional advierte que los cubanos que intentan asociarse para fines cívicos, comunitarios o políticos enfrentan:</p>
+        <ul>
+            <li>Impedimentos para registrar organizaciones independientes</li>
+            <li>Amenazas laborales</li>
+            <li>Hostigamiento policial</li>
+            <li>Prohibiciones de salida del país</li>
+            <li>Citaciones para interrogatorios coercitivos</li>
+        </ul>
+        
+        <p>Periodistas, artistas, líderes comunitarios y miembros de la sociedad civil se encuentran entre los más afectados por estas restricciones.</p>
+        
+        <h3>Impunidad: el Estado no investiga los abusos</h3>
+        
+        <p>De acuerdo con HRW —y coincidiendo con reportes del Departamento de Estado de Estados Unidos— las autoridades cubanas no han tomado acciones creíbles para investigar o sancionar a los responsables de estas violaciones de derechos humanos.</p>
+        
+        <p>Esto significa que las denuncias no se procesan, los agentes represores continúan en funciones, las víctimas carecen de mecanismos reales de protección y el clima de impunidad fortalece la represión. La ausencia de justicia y transparencia contribuye a una espiral de violaciones que afecta cada vez a más ciudadanos.</p>
+        
+        <h3>Un patrón consolidado de control social</h3>
+        
+        <p>El informe de HRW concluye que Cuba mantiene un sistema de control social basado en:</p>
+        <ul>
+            <li>Criminalización de la disidencia</li>
+            <li>Restricciones a la libre circulación</li>
+            <li>Prohibición de asociaciones independientes</li>
+            <li>Represión de protestas</li>
+            <li>Vigilancia constante a opositores, activistas y periodistas</li>
+        </ul>
+        
+        <p>Este panorama se agrava por la dependencia política del sistema judicial y la falta de instituciones independientes capaces de fiscalizar los abusos del Estado.</p>
+        
+        <h3>Llamado internacional</h3>
+        
+        <p>Human Rights Watch y otras organizaciones de derechos humanos exigen al gobierno cubano garantizar las libertades fundamentales protegidas por el derecho internacional, poner fin al uso del aparato de seguridad para reprimir el disenso, liberar a las personas detenidas por motivos políticos o de conciencia, permitir observación independiente y acceso de organismos internacionales, e investigar los abusos y sancionar a los responsables.</p>
+        
+        <p>La comunidad internacional permanece atenta ante lo que HRW describe como uno de los sistemas represivos más severos del hemisferio occidental.</p>`
     },
     // Noticias reales proporcionadas
 ];
@@ -116,6 +275,9 @@ function openArticleModal(item) {
     const modalArticle = document.getElementById('modalArticle');
     const categoryColor = categoryColors[item.category] || '#1a5490';
     
+    // Use full content if available, otherwise use excerpt
+    const articleContent = item.content || `<p>${item.excerpt}</p><p><strong>Nota:</strong> Este es un resumen de la denuncia. Para más información sobre este caso, puedes contactarnos a través de los canales de denuncia disponibles en esta página.</p>`;
+    
     modalArticle.innerHTML = `
         <img src="${item.image}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/400x200/1a5490/ffffff?text=Noticia'">
         <span class="article-category" style="background: ${categoryColor}20; color: ${categoryColor};">${categoryNames[item.category] || item.category}</span>
@@ -124,8 +286,7 @@ function openArticleModal(item) {
             <span>📅 ${item.date}</span>
         </div>
         <div class="article-content">
-            <p>${item.excerpt}</p>
-            <p><strong>Nota:</strong> Este es un resumen de la denuncia. Para más información sobre este caso, puedes contactarnos a través de los canales de denuncia disponibles en esta página.</p>
+            ${articleContent}
         </div>
     `;
     
