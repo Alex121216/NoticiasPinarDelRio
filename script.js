@@ -7,6 +7,7 @@ const newsData = [
         category: "derechos",
         date: "10 de Noviembre, 2025",
         image: "assets/dago-alex.jpg",
+        imageCaption: "Dagoberto (Izq) entrega su libro \"La libertad de la luz\" al periodista independiente Alexeys Blanco Diaz. Foto de archivo",
         content: `<p><strong>Pinar del Río, 10 de noviembre de 2025</strong> — El Centro de Estudios Convivencia (CEC) vuelve a ser blanco de presiones por parte de la Seguridad del Estado. Esta vez, su director, Dagoberto Valdés Hernández, fue citado a las oficinas de Inmigración y Extranjería de Pinar del Río por un oficial identificado como el Mayor Ernesto.</p>
         
         <p>Según informó el propio CEC en una nota pública, el interrogatorio —que se extendió por 21 minutos— giró en torno al reciente viaje académico de Valdés y de Yoandy Izquierdo Toledo a España. En palabras del comunicado, "así continúa el hostigamiento al Centro de Estudios Convivencia".</p>
@@ -274,8 +275,11 @@ function openArticleModal(item) {
     // Use full content if available, otherwise use excerpt
     const articleContent = item.content || `<p>${item.excerpt}</p><p><strong>Nota:</strong> Este es un resumen de la denuncia. Para más información sobre este caso, puedes contactarnos a través de los canales de denuncia disponibles en esta página.</p>`;
     
+    const imageCaption = item.imageCaption ? `<p class="article-image-caption">${item.imageCaption}</p>` : '';
+    
     modalArticle.innerHTML = `
         <img src="${item.image}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/400x200/1a5490/ffffff?text=Noticia'">
+        ${imageCaption}
         <span class="article-category" style="background: ${categoryColor}20; color: ${categoryColor};">${categoryNames[item.category] || item.category}</span>
         <h2 class="article-title">${item.title}</h2>
         <div class="article-meta">

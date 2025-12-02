@@ -866,7 +866,17 @@ body {
     max-height: 400px;
     object-fit: cover;
     border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.modal-article .article-image-caption {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
+    text-align: center;
     margin-bottom: 2rem;
+    padding: 0 1rem;
+    line-height: 1.6;
 }
 
 .modal-article .article-category {
