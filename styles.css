@@ -906,6 +906,34 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.modal-article .article-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.modal-article .article-content ul,
+.modal-article .article-content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.modal-article .article-content li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.modal-article .article-content strong {
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.modal-article .article-content em {
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     .modal-container {
         margin: 1rem;
