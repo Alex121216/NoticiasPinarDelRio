@@ -6,7 +6,7 @@ const newsData = [
         excerpt: "Dagoberto Valdés y Yoandy Izquierdo, directivos del CEC, fueron interrogados en Pinar del Río tras su viaje a Madrid, en un nuevo episodio de hostigamiento contra la organización.",
         category: "derechos",
         date: "28 de Noviembre, 2025",
-        image: "https://via.placeholder.com/400x200/8b0000/ffffff?text=Convivencia"
+        image: "assets/Dagoberto-Valdes-catolico-Cuba-opositor-yoandy-izquierdo.jpg"
     },
     {
         id: 2,
