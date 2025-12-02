@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupCategoryFilters();
     setupMobileMenu();
     setupSmoothScroll();
+    setupModalHandlers();
 });
 
 // Render news cards
@@ -103,11 +104,66 @@ function createNewsCard(item) {
 
     // Add click event to card
     card.addEventListener('click', () => {
-        // In a real application, this would navigate to the full article
-        alert(`Abriendo: ${item.title}`);
+        openArticleModal(item);
     });
 
     return card;
+}
+
+// Open article modal with full content
+function openArticleModal(item) {
+    const modal = document.getElementById('articleModal');
+    const modalArticle = document.getElementById('modalArticle');
+    const categoryColor = categoryColors[item.category] || '#1a5490';
+    
+    modalArticle.innerHTML = `
+        <img src="${item.image}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/400x200/1a5490/ffffff?text=Noticia'">
+        <span class="article-category" style="background: ${categoryColor}20; color: ${categoryColor};">${categoryNames[item.category] || item.category}</span>
+        <h2 class="article-title">${item.title}</h2>
+        <div class="article-meta">
+            <span>📅 ${item.date}</span>
+        </div>
+        <div class="article-content">
+            <p>${item.excerpt}</p>
+            <p><strong>Nota:</strong> Este es un resumen de la denuncia. Para más información sobre este caso, puedes contactarnos a través de los canales de denuncia disponibles en esta página.</p>
+        </div>
+    `;
+    
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// Close article modal
+function closeArticleModal() {
+    const modal = document.getElementById('articleModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Setup modal close handlers
+function setupModalHandlers() {
+    const modal = document.getElementById('articleModal');
+    const closeBtn = document.getElementById('modalClose');
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeArticleModal);
+    }
+    
+    // Close modal when clicking outside
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeArticleModal();
+            }
+        });
+    }
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeArticleModal();
+        }
+    });
 }
 
 // Setup category filter tabs
