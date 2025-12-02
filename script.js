@@ -2,22 +2,18 @@
 const newsData = [
     {
         id: 1,
-        title: "Seguridad del Estado cita a líderes del Centro de Estudios Convivencia",
-        excerpt: "Dagoberto Valdés y Yoandy Izquierdo, directivos del CEC, fueron interrogados en Pinar del Río tras su viaje a Madrid, en un nuevo episodio de hostigamiento contra la organización.",
+        title: "Nuevo episodio de hostigamiento contra el Centro de Estudios Convivencia",
+        excerpt: "Dagoberto Valdés Hernández, director del CEC, fue citado a Inmigración y Extranjería de Pinar del Río por un oficial identificado como el Mayor Ernesto, en un interrogatorio de 21 minutos sobre su viaje académico a España.",
         category: "derechos",
-        date: "28 de Noviembre, 2025",
-        image: "./assets/Dagoberto-Valdes-catolico-Cuba-opositor-yoandy-izquierdo.jpg",
-        content: `<p><strong>Pinar del Río, Cuba</strong> — Integrantes del Centro de Estudios Convivencia (CEC), una de las organizaciones cívicas independientes más reconocidas del occidente cubano, denunciaron este fin de semana nuevos episodios de hostigamiento por parte de la Seguridad del Estado. Los activistas Dagoberto Valdés y Yoandy Izquierdo, directivos del centro, fueron citados oficialmente para interrogatorios en dependencias policiales de Pinar del Río.</p>
+        date: "10 de Noviembre, 2025",
+        image: "assets/dago-alex.jpg",
+        content: `<p><strong>Pinar del Río, 10 de noviembre de 2025</strong> — El Centro de Estudios Convivencia (CEC) vuelve a ser blanco de presiones por parte de la Seguridad del Estado. Esta vez, su director, Dagoberto Valdés Hernández, fue citado a las oficinas de Inmigración y Extranjería de Pinar del Río por un oficial identificado como el Mayor Ernesto.</p>
         
-        <p>Según declaraciones ofrecidas por la propia institución, los agentes se enfocaron en cuestionar detalles del reciente viaje de ambos a Madrid, incluyendo su agenda de reuniones, los espacios en los que participaron, y las organizaciones con las que sostuvieron intercambios. También se indagó en asuntos personales como alojamiento, contactos y proyecciones futuras del grupo.</p>
+        <p>Según informó el propio CEC en una nota pública, el interrogatorio —que se extendió por 21 minutos— giró en torno al reciente viaje académico de Valdés y de Yoandy Izquierdo Toledo a España. En palabras del comunicado, "así continúa el hostigamiento al Centro de Estudios Convivencia".</p>
         
-        <p>El CEC denunció que este tipo de interrogatorios no constituye un hecho aislado, sino parte de un patrón de vigilancia y presión que lleva años dirigido contra la plataforma y sus miembros, quienes se dedican al análisis social, formación cívica y acompañamiento comunitario dentro de la sociedad civil.</p>
+        <p>El hecho se inscribe en una larga serie de citaciones, interrogatorios y presiones institucionales que buscan desalentar el trabajo cívico y académico independiente que desarrolla Convivencia desde hace más de una década. La organización, conocida por su labor intelectual y por fomentar el pensamiento crítico dentro de Cuba, ha mantenido una postura de resistencia pacífica ante estos intentos de intimidación.</p>
         
-        <p>Organizaciones internacionales de derechos humanos han señalado previamente que las autoridades cubanas recurren a citaciones policiales, interrogatorios intimidatorios, vigilancia y limitaciones a la movilidad para intentar frenar el trabajo legítimo de actores independientes. En múltiples informes, se ha señalado que estas prácticas forman parte de un esquema más amplio dirigido a restringir la libertad de asociación, de pensamiento y de expresión pacífica.</p>
-        
-        <p>Hasta el momento, ninguna institución estatal ha ofrecido declaraciones públicas sobre este nuevo incidente.</p>
-        
-        <p>El Centro de Estudios Convivencia afirmó que continuará con sus proyectos educativos y comunitarios, y reiteró que su labor es totalmente pacífica y orientada al desarrollo social.</p>`
+        <p>Más allá del suceso puntual, este nuevo episodio refleja la vulnerabilidad de los espacios de pensamiento autónomo en Cuba, donde la preparación académica y el compromiso cívico continúan siendo objeto de vigilancia estatal.</p>`
     },
     {
         id: 2,
